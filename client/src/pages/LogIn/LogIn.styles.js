@@ -1,12 +1,14 @@
 import { styled } from "styled-components";
 
-// Container for login box and sign up message
+// Container for the body of the login page
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  margin-bottom: 10rem;
+  /* Responsive layout */
+  @media (max-width: 1000px) {
+    margin-top: 10rem;
+  }
 `;
 
 // Styled component for the wrapper that holds both boxes
@@ -14,22 +16,21 @@ export const BoxWrapper = styled.div`
   display: flex;
   flex: 1;
   gap: 5rem;
-  margin: 10rem;
+  margin: 1rem 0;
 
   @media (max-width: 1200px) {
-    flex-direction: column; /* Stack the flex items vertically */
-    align-items: center; /* Center the items on smaller screens */
-    margin-top: 25rem;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
 
   @media (max-width: 1000px) {
-    margin-top: 28rem;
+    margin-top: 4rem;
   }
 
   @media (max-width: 800px) {
-    margin-top: 30rem;
-    gap: 1rem;
+    margin-top: 2rem;
+    gap: 0rem;
   }
 `;
 
@@ -44,7 +45,7 @@ export const LoginContainer = styled.div`
   }
   @media (max-width: 800px) {
     width: 30rem;
-  };
+  }
 `;
 
 // Message on the right asking the user to sign up

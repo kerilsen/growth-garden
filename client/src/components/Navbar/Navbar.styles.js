@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Nav = styled.nav`
   background-color: var(--cambridge-blue);
   font-family: var(--quicksand);
-  height: 7vh;
+  // height: 7vh;
 `;
 
 export const NavWrapper = styled.div`

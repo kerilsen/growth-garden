@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: var(--dark-moss-green);
+  background-color: var(--chinese-violet);
   color: white;
   cursor: pointer;
   display: inline-flex;

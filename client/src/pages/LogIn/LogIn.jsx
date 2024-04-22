@@ -54,7 +54,7 @@ function LogIn() {
         <BoxWrapper>
           <LoginContainer>
             <LoginForm onSubmit={handleSignInSubmit}>
-              <h2>Sign In</h2>
+              <h3>Log In</h3>
               <TextInput
                 type="email"
                 name="email"
