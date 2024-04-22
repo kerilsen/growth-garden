@@ -5,8 +5,7 @@ export const BoardContainer = styled.div`
   display: flex;
   margin: 20px;
   @media (max-width: 1000px) {
-    margin-top: 12vh;
-    margin-bottom: 5vh;
+    margin-top: 13rem;
     flex-direction: column;
     align-items: center;
   }
@@ -33,7 +32,7 @@ export const BoardSidebar = styled.div`
   background-size: cover;
   background-position: center;
   font-family: var(--homemade-apple);
-  border: 0.5rem solid #643D14;
+  border: 0.5rem solid #643d14;
   color: white;
   font-size: 1.2rem;
   @media (max-width: 1000px) {
@@ -51,7 +50,7 @@ export const MessageBoard = styled.div`
   font-family: var(--annie-use-your-telescope);
   color: white;
   min-height: 364px;
-  border: 0.5rem solid #643D14;
+  border: 0.5rem solid #643d14;
   margin: auto;
   font-size: 1.5rem;
   & a {

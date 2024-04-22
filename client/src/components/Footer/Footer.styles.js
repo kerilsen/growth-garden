@@ -25,6 +25,9 @@ export const SocialIcons = styled.div`
   & a:hover {
     color: lightgray;
   }
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;
 
 export const Copyright = styled.p`

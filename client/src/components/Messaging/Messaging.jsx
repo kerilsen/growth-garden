@@ -6,7 +6,7 @@ export function Messaging() {
   return (
     <>
       <Container>
-        <h3>Chat <FontAwesomeIcon icon={faCommentDots} /></h3>
+        <p>Chat <FontAwesomeIcon icon={faCommentDots} /></p>
       </Container>
     </>
   );

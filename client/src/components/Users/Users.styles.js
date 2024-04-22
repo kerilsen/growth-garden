@@ -8,8 +8,7 @@ export const LargeContainer = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
   @media (max-width: 1000px) {
-    margin-top: 12vh;
-    margin-bottom: 5vh;
+    padding-top: 180px;
   }
 `;
 

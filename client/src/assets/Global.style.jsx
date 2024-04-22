@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
     background-position: center;
     font-family: var(--quicksand);
     text-rendering: optimizeLegibility;
-    margin-bottom: 10vh;
+    margin-bottom: 10rem;
   }
 
   a {
